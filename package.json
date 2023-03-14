@@ -19,7 +19,7 @@
     "@nrwl/jest": "16.0.0-katerina.0",
     "@nrwl/js": "16.0.0-katerina.0",
     "@nrwl/linter": "16.0.0-katerina.0",
-    "@nrwl/next": "^16.0.0-katerina.0",
+    "@nrwl/next": "16.0.0-katerina.0",
     "@nrwl/react": "16.0.0-katerina.0",
     "@nrwl/workspace": "16.0.0-katerina.0",
     "@swc/core": "^1.2.173",

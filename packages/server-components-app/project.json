@@ -4,7 +4,7 @@
   "sourceRoot": "packages/server-components-app",
   "projectType": "application",
   "targets": {
-    "build": {
+    "build-base": {
       "executor": "@nrwl/next:build",
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
@@ -23,16 +23,16 @@
       "executor": "@nrwl/next:server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "server-components-app:build",
+        "buildTarget": "server-components-app:build-base",
         "dev": true
       },
       "configurations": {
         "development": {
-          "buildTarget": "server-components-app:build:development",
+          "buildTarget": "server-components-app:build-base:development",
           "dev": true
         },
         "production": {
-          "buildTarget": "server-components-app:build:production",
+          "buildTarget": "server-components-app:build-base:production",
           "dev": false
         }
       }
